@@ -30,7 +30,7 @@ describe("mooc_node-mod2_cmd_iterators", function () {
     });
 
     it('', async function () { this.name = `2: Checking that the command 'mooc_node-mod2_cmd_iterators.js' detects input arguments`;
-        this.score = 1.75;
+        this.score = 1.25;
         if (error_critical) {
             this.msg_err = error_critical;
             should.not.exist(error_critical);
@@ -147,5 +147,6 @@ describe("mooc_node-mod2_cmd_iterators", function () {
                 Utils.search(this.expected, this.output).should.be.equal(true);
             }
         }
+       
     });
 });
